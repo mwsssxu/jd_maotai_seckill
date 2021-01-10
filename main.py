@@ -21,6 +21,8 @@ if __name__ == '__main__':
     print(a)
 
     jd_seckill = JdSeckill()
+    # jd_seckill._get_seckill_init_info()
+
     choice_function = input('请选择:')
     if choice_function == '1':
         jd_seckill.reserve()
